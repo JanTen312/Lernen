@@ -7,8 +7,9 @@
     printf("Geben Sie die zweite Zahl ein:  ");
     scanf("%f",&b);
       if(a<b) {
-        printf("Die größere Zahl ist: %f \n\n",b);
+        printf("Die größere Zahl ist: %.2f \n\n",b);
       }else{
-        printf("Die größere Zahl ist: %f \n\n",a);
+        printf("Die größere Zahl ist: %.2f \n\n",a);
+	}
   return 0;
   }      
