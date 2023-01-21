@@ -5,17 +5,17 @@
     scanf("%d",&a);
     switch(a) {
       case 10: printf("Sie haben eine sehr gute Klausur\n\n");
-        brake;
+        break;
       case 9: printf("Sie haben eine gute Klausur\n\n");
-        brake;
+        break;
       case 8: printf("Sie haben eine befriedigende Klausur\n\n");
         brake; 
       case 7: printf("Sie haben eine ausreichende Klausur\n\n");
-        brake;
+        break;
       case 6: printf("Sie haben eine mangelhafte Klausur\n\n");
-        brake;
+        break;
       case 1-6: printf("Sie haben eine ungenügende Klausur\n\n");
-        brake;
+        break;
       default: printf("Falsche Eingabe\n\n"); }
   return 0;
   }     
