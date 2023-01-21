@@ -14,7 +14,12 @@
         break;
       case 6: printf("Sie haben eine mangelhafte Klausur\n\n");
         break;
-      case 1-6: printf("Sie haben eine ungenügende Klausur\n\n");
+      case 5:
+      case 4:
+      case 3:
+      case 2:
+      case 1:
+      printf("Sie haben eine ungenügende Klausur\n\n");
         break;
       default: printf("Falsche Eingabe\n\n"); }
   return 0;
