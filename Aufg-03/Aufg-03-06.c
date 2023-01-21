@@ -16,6 +16,6 @@
         brake;
       case 1-6: printf("Sie haben eine ungenügende Klausur\n\n");
         brake;
-      default: printf("Falsche Eingabe\n\n");
+      default: printf("Falsche Eingabe\n\n"); }
   return 0;
   }     
