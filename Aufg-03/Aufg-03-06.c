@@ -9,7 +9,7 @@
       case 9: printf("Sie haben eine gute Klausur\n\n");
         break;
       case 8: printf("Sie haben eine befriedigende Klausur\n\n");
-        brake; 
+        break; 
       case 7: printf("Sie haben eine ausreichende Klausur\n\n");
         break;
       case 6: printf("Sie haben eine mangelhafte Klausur\n\n");
