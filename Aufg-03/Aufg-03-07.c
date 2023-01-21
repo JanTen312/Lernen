@@ -9,7 +9,7 @@
     scanf("%f",&c);
     if(a<b && a<c) {
       printf("Der Wert eins (%.2f) ist der Größte\n\n",a);}
-    else if(b<a && b<c) printf("Der Wert zwei (%.2f) ist der Größte\n\n",b)
+    else if(b<a && b<c) printf("Der Wert zwei (%.2f) ist der Größte\n\n",b);
     else printf("Der Wert drei (%.2f) ist der Größte\n\n",c);
   return 0;
   }
