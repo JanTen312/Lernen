@@ -1,7 +1,7 @@
 #include <stdio.h>
   int main() {
     float a,b,c;
-    printf("Geben Sie die erste Zahl ein: ");
+    printf("\n\nGeben Sie die erste Zahl ein: ");
     scanf("%f",&a);
     printf("Geben Sie die zweite Zahl ein: ");
     scanf("%f",&b);
