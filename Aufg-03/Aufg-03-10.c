@@ -2,7 +2,7 @@
   int main() {
     int a;
     printf("\n\nGeben Sie eine Zahl zwischen 1-7 ein");
-    scanf("%d",&f);
+    scanf("%d",&a);
     switch(a) {
       case 1: printf("Montag\n\n");
       break;
