@@ -23,7 +23,7 @@
               else {
                 printf("Falsche Geldeingabe\n"); }
       break;
-      case 2: printf("Bitte werfen Sie 2.00 Euro ein: ");
+      case 3: printf("Bitte werfen Sie 2.00 Euro ein: ");
               scanf("%f",&geld);
               if(geld == 2) {
                 printf("Hier ist Ihr Bier\n"); }
