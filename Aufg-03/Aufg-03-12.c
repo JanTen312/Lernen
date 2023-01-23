@@ -4,8 +4,8 @@
     int getraenk;
     printf("\n\nWaehlen Sie ihr Getränk aus:\n");
     printf("1) Wasser (0,50 Euro)");
-    printf("2) Limo (1 Euro)");
-    printf("3) Bier (2 Euro)");
+    printf("2) Limo (1 Euro)\n");
+    printf("3) Bier (2 Euro)\n");
     printf("Geben Sie zur Auswahl 1, 2 oder 3 ein:  ");
     scanf("%d",&getraenk);
     switch(getraenk) {
