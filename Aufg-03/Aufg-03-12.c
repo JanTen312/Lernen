@@ -30,7 +30,7 @@
               else {
                 printf("Falsche Geldeingabe\n"); }
       break;
-      default: printf("Falsche Eingabe\n")
+      default: printf("Falsche Eingabe\n");
       break; }
    return 0;
    }
