@@ -3,7 +3,7 @@
     float geld;
     int getraenk;
     printf("\n\nWaehlen Sie ihr Getränk aus:\n");
-    printf("1) Wasser (0,50 Euro)")
+    printf("1) Wasser (0,50 Euro)");
     printf("2) Limo (1 Euro)");
     printf("3) Bier (2 Euro)");
     printf("Geben Sie zur Auswahl 1, 2 oder 3 ein:  ");
@@ -31,6 +31,6 @@
                 printf("Falsche Geldeingabe\n"); }
       break;
       default: printf("Falsche Eingabe\n")
-      break;
+      break; }
    return 0;
    }
