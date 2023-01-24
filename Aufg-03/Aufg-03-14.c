@@ -6,7 +6,7 @@
       for(b=1; b<=10; b++) {
       while(a <= 10) {
         printf("*");
-        a = a+1,
+        a = a+1;
       }
       printf("\n");
       }
