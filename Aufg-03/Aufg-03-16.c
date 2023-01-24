@@ -1,9 +1,10 @@
 #include <stdio.h>
   int main() {
-    int a,b,c;
+    int b,c;
+    float a;
     b=0;
     printf("\n\nGeben Sie eine Zahl ein die durch 5 Teilbar ist: ");
-    scanf("%d",a);
+    scanf("%f",a);
     c=a;
     while(a != 1) {
       a = a/5;
