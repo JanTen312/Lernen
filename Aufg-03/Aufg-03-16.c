@@ -8,7 +8,7 @@
     while(a >= 1) {
       a = a/5;
       b = b+1;
-      printf("Die Zahl %d ist %d mal durch 5 Teilbar\n\n",c,b);
     }
+      printf("Die Zahl %d ist %d mal durch 5 Teilbar\n\n",c,b);
   return 0;
   }
