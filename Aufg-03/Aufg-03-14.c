@@ -3,7 +3,7 @@
     int a,b;
     a = 1;
     b = 1;
-      for(b=1; b<=10; b++) {
+      while(b<=10) {
       while(a <= 10) {
         printf("*");
         a = a+1;
