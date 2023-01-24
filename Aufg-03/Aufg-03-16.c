@@ -3,7 +3,7 @@
     int b,c;
     float a;
     b=0;
-    printf("\n\nGeben Sie eine Zahl ein die durch 5 Teilbar ist: ");
+    printf("\n\nGeben Sie eine Zahl ein: ");
     scanf("%f",&a);
     c=a;
     while(a >= 1) {
