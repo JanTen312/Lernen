@@ -4,7 +4,7 @@
     a=1;
     b=0;
     
-      }while(a<=10)
+      while(a<=10)
       do {
         printf("\n");
         b=b+1;
