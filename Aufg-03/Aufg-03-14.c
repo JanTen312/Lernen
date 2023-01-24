@@ -9,7 +9,7 @@
           a = a+1;
         }
       printf("\n");
-      b = b+1  
+      b = b+1;
       }
    return 0;
       }  
