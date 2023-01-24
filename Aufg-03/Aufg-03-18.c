@@ -9,4 +9,3 @@
         printf("\n");
         b=b+1;
       } while(b<=10);
-    }
