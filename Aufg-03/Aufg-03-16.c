@@ -6,7 +6,7 @@
     printf("\n\nGeben Sie eine Zahl ein: ");
     scanf("%f",&a);
     c=a;
-    while(a >= 1) {
+    while(a >= 5) {
       a = a/5;
       b = b+1;
     }
