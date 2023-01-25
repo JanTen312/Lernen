@@ -1,5 +1,5 @@
 #include <stdio.h>
-  viod main() {
+  void main() {
     int a,b;
     a=0;
     b=0;
@@ -13,5 +13,5 @@
       b = 0;
       a++;
       }
-    printf(\n\n);
+    printf("\n\n");
   }
