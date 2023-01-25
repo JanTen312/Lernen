@@ -12,5 +12,5 @@
     printf("\n");
     a=0;
     b++;
-    }while(a<10);
+    }while(b<10);
   }
