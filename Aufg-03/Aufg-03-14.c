@@ -1,16 +1,17 @@
 #include <stdio.h>
-  int main() {
+  viod main() {
     int a,b;
-    a = 1;
-    b = 1;
-      while(b<=10) {
-        while(a <= 10) {
+    a=0;
+    b=0;
+    printf("\n\n");
+      while(a<10) {
+        while(b<10) {
           printf("*");
-          a = a+1;
+          b++;
         }
       printf("\n");
-      b = b+1;
+      b = 0;
+      a++;
       }
-   return 0;
-      }  
-        
+    printf(\n\n);
+  }
