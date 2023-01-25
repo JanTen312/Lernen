@@ -11,6 +11,6 @@
       } while(a<10);
     printf("\n");
     a=0;
-    b++
+    b++;
     }while(a<10);
   }
