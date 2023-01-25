@@ -8,7 +8,7 @@
     } else if(n==1) {
       printf("\nDer endwert von %d ist: 1\n\n",n);
       }else{
-  for(a=1;a<=n;a++) {
+  for(a=0;a<n;a++) {
     drei = eins + zwei;
     printf("Der %d Fibu Wert ist: %d\n",a,drei);
     eins = zwei;
