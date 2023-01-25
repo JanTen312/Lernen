@@ -9,5 +9,5 @@
     eins = zwei;
     zwei = drei;
   }
-  printf("Der endwert von %d ist: %d"\n\n",n,drei);
+  printf("Der endwert von %d ist: %d\n\n",n,drei);
   }
