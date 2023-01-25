@@ -13,4 +13,5 @@
     a=0;
     b++;
     }while(b<10);
+    printf("\n\n");
   }
