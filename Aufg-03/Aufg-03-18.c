@@ -1,15 +1,16 @@
 #include <stdio.h>
   void main() {
     int a,b;
-    a=1;
+    a=0;
     b=0;
-    
-      while(a<=10)
-      do {
-        printf("\n");
-        b=b+1;
-        do {
-      printf("*");
-      a=a+1;
-      } while(b<=10);
-   }
+    printf("\n\n);
+    do{
+      do{
+        printf("*");
+        a++;
+      } while(a<10);
+    printf("\n");
+    a=0;
+    b++
+    }while(a<10);
+  }
