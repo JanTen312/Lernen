@@ -3,7 +3,7 @@
     int a,b;
     a=0;
     b=0;
-    printf("\n\n);
+    printf("\n\n");
     do{
       do{
         printf("*");
