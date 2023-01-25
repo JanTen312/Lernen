@@ -5,7 +5,7 @@
   scanf("%d",&n);
   for(a=1;a<=n;a++) {
     drei = eins + zwei;
-    printf("Der %d Fibu Wert ist: %d\n",n,drei);
+    printf("Der %d Fibu Wert ist: %d\n",a,drei);
     eins = zwei;
     zwei = drei;
   }
