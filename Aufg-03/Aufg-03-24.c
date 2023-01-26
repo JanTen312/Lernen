@@ -3,9 +3,9 @@
     float geld,preisw=0.5,preisl=1,preisb=2;
     int getraenk,anzahl;
     printf("\n\nWaehlen Sie ihr Getränk aus:\n");
-    printf("1) Wasser (%d Euro)\n",preisw);
-    printf("2) Limo (%d Euro)\n",preisl);
-    printf("3) Bier (%d Euro)\n",preisb);
+    printf("1) Wasser (%f Euro)\n",preisw);
+    printf("2) Limo (%f Euro)\n",preisl);
+    printf("3) Bier (%f Euro)\n",preisb);
     printf("Geben Sie zur Auswahl 1, 2 oder 3 ein:  ");
     scanf("%d",&getraenk);
     printf("Geben Sie die gewünschte Anzahl ein: ");
