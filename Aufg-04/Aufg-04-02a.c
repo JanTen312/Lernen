@@ -18,7 +18,7 @@
 
   int main() {
     einlesen();
-    umfang();
-    flaeche();
+    umfang(r);
+    flaeche(r);
     return 0;
   }
