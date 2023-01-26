@@ -17,7 +17,7 @@
   }
 
   int main() {
-    einlesen();
+   float r= einlesen();
     umfang(r);
     flaeche(r);
     return 0;
