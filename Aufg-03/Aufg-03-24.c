@@ -20,8 +20,7 @@
                 printf("Es fehlen noch %.2f Euro\n",preis);
                 printf("Werfen Sie Geld ein: ");
                 scanf("%f",&geld);}
-              printf("\n");
-              printf("\n---Getränkeausgabe---");
+              printf("\n---Getränkeausgabe---\n");
               for(i=1;i<=anzahl;i++) {
                 printf("Hier ist Ihr %d Getränk von %d\n",i,anzahl); }
               printf("\n\n");
@@ -35,8 +34,7 @@
                 printf("Es fehlen noch %.2f Euro\n",preis);
                 printf("Werfen Sie Geld ein: ");
                 scanf("%f",&geld);}
-              printf("\n");
-              printf("\n---Getränkeausgabe---");
+              printf("\n---Getränkeausgabe---\n");
               for(i=1;i<=anzahl;i++) {
                 printf("Hier ist Ihr %d Getränk von %d\n",i,anzahl); }
               printf("\n\n");
@@ -50,8 +48,7 @@
                 printf("Es fehlen noch %.2f Euro\n",preis);
                 printf("Werfen Sie Geld ein: ");
                 scanf("%f",&geld);}
-              printf("\n");
-              printf("\n---Getränkeausgabe---");
+              printf("\n---Getränkeausgabe---\n");
               for(i=1;i<=anzahl;i++) {
                 printf("Hier ist Ihr %d Getränk von %d\n",i,anzahl); }
               printf("\n\n");
