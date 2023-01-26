@@ -17,8 +17,8 @@
   int main() {
     float r= einlesen();
     float pi = 3.141592;
-    float umfang = umfang(pi,r);
-    float flaeche = flaeche(pi, r);
-    printf("Der Umfang liegt bei: %.2f Zentimetern\nDie Fläche liegt bei %.2f Quadratzentimetern\n",umfang,flaeche);
+    float umfangerg = umfang(pi,r);
+    float flaecheerg = flaeche(pi, r);
+    printf("Der Umfang liegt bei: %.2f Zentimetern\nDie Fläche liegt bei %.2f Quadratzentimetern\n",umfangerg,flaecheerg);
     return 0;
   }
