@@ -12,8 +12,7 @@
     scanf("%d",&anzahl);
     switch(getraenk) {
       case 1: preis= preisw*anzahl;
-              printf("Bitte werfen Sie %.2f Euro ein: \n 
-              Der Automat gibt kein Wechselgeld aus!",preis);
+              printf("Bitte werfen Sie %.2f Euro ein: \nDer Automat gibt kein Wechselgeld aus!",preis);
               scanf("%f",&geld);
               while(geld<preis) {
                 preis = preis - geld;
