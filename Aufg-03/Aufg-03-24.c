@@ -5,7 +5,7 @@
     printf("\n\nWaehlen Sie ihr Getränk aus:\n");
     printf("1) Wasser (%.2f Euro)\n",preisw);
     printf("2) Limo (%.2f Euro)\n",preisl);
-    printf("3) Bier (%.2f Euro)\n",preisb);
+    printf("3) Bier (%.2f Euro)\n\n",preisb);
     printf("Geben Sie zur Auswahl 1, 2 oder 3 ein:  ");
     scanf("%d",&getraenk);
     printf("Geben Sie die gewünschte Anzahl ein: ");
