@@ -16,7 +16,7 @@
 
   int main() {
    float r= einlesen();
-   float pi = 3,141592
+   float pi = 3.141592
     umfang(pi,r);
     flaeche(pi, r);
     return 0;
