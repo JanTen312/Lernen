@@ -6,12 +6,12 @@
     return r;
   }
 
-  float umfang(float pi,r) {
+  float umfang(float pi,float r) {
     pi=3.141592;
     return (pi*2*r);
   }
 
-  float flaeche(int pi,r) {
+  float flaeche(int pi,float r) {
     pi=3.141592;
     return (pi*r*r);
   }
