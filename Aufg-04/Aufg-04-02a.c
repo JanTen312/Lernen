@@ -7,17 +7,16 @@
   }
 
   float umfang(float pi,float r) {
-    pi=3.141592;
     return (pi*2*r);
   }
 
   float flaeche(float pi,float r) {
-    pi=3.141592;
     return (pi*r*r);
   }
 
   int main() {
    float r= einlesen();
+   float pi = 3,141592
     umfang(pi,r);
     flaeche(pi, r);
     return 0;
