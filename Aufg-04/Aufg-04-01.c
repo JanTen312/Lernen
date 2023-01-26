@@ -15,9 +15,9 @@
   }
   
   int main() {
-    float eins = eingabe;
-    float zwei = eingabe;
-    float erg = multi(eins, zwei);
-    ausgabe;
+    float eins = eingabe();
+    float zwei = eingabe();
+    float erg = multi();
+    ausgabe();
     return 0;
   }
