@@ -11,7 +11,7 @@
     return (pi*2*r);
   }
 
-  float flaeche(int pi,float r) {
+  float flaeche(float pi,float r) {
     pi=3.141592;
     return (pi*r*r);
   }
