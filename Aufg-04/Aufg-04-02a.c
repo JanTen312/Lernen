@@ -14,6 +14,10 @@
     return (pi*r*r);
   }
 
+  void ausgabe() {
+    printf("Der Umfang liegt bei: %.2f Zentimetern\nDie Fläche liegt bei %.2f Quadratzentimetern\n",umfang,flaeche);
+  }
+
   int main() {
    float r= einlesen();
    float pi = 3.141592;
