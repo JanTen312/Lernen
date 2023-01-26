@@ -20,7 +20,7 @@
                 printf("Werfen Sie Geld ein: ");
                 scanf("%f",&geld);}
               for(i=1;i<=anzahl;i++) {
-                printf("Hier ist Ihr %d Getränk von %d",i,anzahl); }
+                printf("Hier ist Ihr %d Getränk von %d\n",i,anzahl); }
                 printf("\n\n");
       break;
       case 2: printf("Bitte werfen Sie 1.00 Euro ein: ");
