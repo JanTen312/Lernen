@@ -1,5 +1,6 @@
 #include <stdio.h>
-  float einlesen(float r) {
+  float einlesen() {
+    float r;
     printf("Geben Sie den Radius ein:  ");
     scanf("%f",&r);
     return r;
