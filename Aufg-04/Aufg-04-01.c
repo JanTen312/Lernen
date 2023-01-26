@@ -17,7 +17,7 @@
   int main() {
     float eins = eingabe();
     float zwei = eingabe();
-    float erg = multi();
-    ausgabe();
+    float erg = multi(eins,zwei);
+    ausgabe(erg);
     return 0;
   }
