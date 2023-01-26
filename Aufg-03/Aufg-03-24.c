@@ -2,7 +2,8 @@
   void main() {
     float geld,preisw=0.5,preisl=1,preisb=2,preis;
     int getraenk,anzahl,i;
-    printf("\n\nWaehlen Sie ihr Getränk aus:\n");
+    
+    printf("\n\n---Getränkeautomat v.3\nWaehlen Sie ihr Getränk aus:\n");
     printf("1) Wasser (%.2f Euro)\n",preisw);
     printf("2) Limo (%.2f Euro)\n",preisl);
     printf("3) Bier (%.2f Euro)\n\n",preisb);
