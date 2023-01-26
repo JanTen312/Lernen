@@ -1,7 +1,7 @@
 #include <stdio.h>
   float einlesen() {
     float r;
-    printf("Geben Sie den Radius ein:  ");
+    printf("\n\nGeben Sie den Radius ein:  ");
     scanf("%f",&r);
     return r;
   }
@@ -19,6 +19,6 @@
     float pi = 3.141592;
     float umfangerg = umfang(pi,r);
     float flaecheerg = flaeche(pi, r);
-    printf("Der Umfang liegt bei: %.2f Zentimetern\nDie Fläche liegt bei %.2f Quadratzentimetern\n",umfangerg,flaecheerg);
+    printf("Der Umfang liegt bei: %.2f Zentimetern\nDie Fläche liegt bei %.2f Quadratzentimetern\n\n\n",umfangerg,flaecheerg);
     return 0;
   }
