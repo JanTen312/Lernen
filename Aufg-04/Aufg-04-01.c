@@ -1,15 +1,23 @@
 #include <stdio.h>
-  void eingabe(float zahl1, float zahl2) {
-      printf("Geben Sie Zahl 1 ein:  ");
-      scanf("%f",&zahl1);
-      printf("Geben Sie Zahl 2 ein:  ");
-      scanf("%f",&zahl2);
-    }
-  void multiplikation(float ergebniss) {
-    ergebniss = zahl1 * zahl2;
-    }
-    
-  void main() {
-    eingabe(float zahl1, float zahl2);
-    multiplikation(float ergebniss);
+  float eingabe() {
+    float zahl
+    printf("Geben Sie eine Zahl ein:  ");
+    scanf("%f",&zahl);
+    return zahl;
+  }
+  
+  float multi(float eins, float zwei) {
+    return (eins*zwei);
+  }
+  
+  void ausgabe(float erg) {
+    printf("Das Ergebniss ist %f\n,erg);
+  }
+  
+  int main() {
+    float eins = eingabe;
+    float zwei = eingabe;
+    float erg = multi
+    ausgabe;
+    return 0;
   }
