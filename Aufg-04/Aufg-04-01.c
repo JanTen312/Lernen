@@ -11,13 +11,13 @@
   }
   
   void ausgabe(float erg) {
-    printf("Das Ergebniss ist %f\n,erg);
+    printf("Das Ergebniss ist %f\n",erg);
   }
   
   int main() {
     float eins = eingabe;
     float zwei = eingabe;
-    float erg = multi
+    float erg = multi(eins, zwei);
     ausgabe;
     return 0;
   }
