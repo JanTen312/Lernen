@@ -10,7 +10,7 @@
     return (pi*2*r);
   }
 
-  float fläche(int pi) {
+  float flaeche(int pi) {
     pi=3.141592;
     return (pi*r*r);
   }
@@ -18,6 +18,6 @@
   int main() {
     r=einlesen();
     umfang(r);
-    fläche(r);
+    flaeche(r);
     return 0;
   }
