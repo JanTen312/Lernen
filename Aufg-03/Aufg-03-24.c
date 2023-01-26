@@ -9,7 +9,7 @@
     printf("Geben Sie zur Auswahl 1, 2 oder 3 ein:  ");
     scanf("%d",&getraenk);
     printf("Geben Sie die gewünschte Anzahl ein: ");
-    scanf("%d";&anzahl);
+    scanf("%d",&anzahl);
     switch(getraenk) {
       case 1: preis= preisw*anzahl;
               printf("Bitte werfen Sie %f Euro ein: ",preis);
