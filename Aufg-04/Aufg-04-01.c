@@ -1,6 +1,6 @@
 #include <stdio.h>
   float eingabe() {
-    float zahl
+    float zahl;
     printf("Geben Sie eine Zahl ein:  ");
     scanf("%f",&zahl);
     return zahl;
