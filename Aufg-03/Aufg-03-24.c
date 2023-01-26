@@ -12,6 +12,7 @@
     scanf("%d",&anzahl);
     switch(getraenk) {
       case 1: preis= preisw*anzahl;
+              printf("---Bezahlvorgang---");
               printf("\nDer Automat gibt kein Wechselgeld aus!\nBitte werfen Sie %.2f Euro ein: ",preis);
               scanf("%f",&geld);
               while(geld<preis) {
@@ -20,11 +21,13 @@
                 printf("Werfen Sie Geld ein: ");
                 scanf("%f",&geld);}
               printf("\n");
+              printf("---Getränkeausgabe---");
               for(i=1;i<=anzahl;i++) {
                 printf("Hier ist Ihr %d Getränk von %d\n",i,anzahl); }
               printf("\n\n");
       break;
       case 2: preis= preisl*anzahl;
+              printf("---Bezahlvorgang---");
               printf("\nDer Automat gibt kein Wechselgeld aus!\nBitte werfen Sie %.2f Euro ein: ",preis);
               scanf("%f",&geld);
               while(geld<preis) {
@@ -33,11 +36,13 @@
                 printf("Werfen Sie Geld ein: ");
                 scanf("%f",&geld);}
               printf("\n");
+              printf("---Getränkeausgabe---");
               for(i=1;i<=anzahl;i++) {
                 printf("Hier ist Ihr %d Getränk von %d\n",i,anzahl); }
               printf("\n\n");
       break;
       case 3:preis= preisb*anzahl;
+              printf("---Bezahlvorgang---");
               printf("\nDer Automat gibt kein Wechselgeld aus!\nBitte werfen Sie %.2f Euro ein: ",preis);
               scanf("%f",&geld);
               while(geld<preis) {
@@ -46,6 +51,7 @@
                 printf("Werfen Sie Geld ein: ");
                 scanf("%f",&geld);}
               printf("\n");
+              printf("---Getränkeausgabe---");
               for(i=1;i<=anzahl;i++) {
                 printf("Hier ist Ihr %d Getränk von %d\n",i,anzahl); }
               printf("\n\n");
