@@ -14,7 +14,7 @@
       case 1: preis= preisw*anzahl;
               printf("Bitte werfen Sie %f Euro ein: ",preis);
               scanf("%f",&geld);
-              while(geld<=preis) {
+              while(geld<preis) {
                 preis = preis - geld;
                 printf("Es fehlen noch %.2f Euro\n",preis);
                 printf("Werfen Sie Geld ein: ");
