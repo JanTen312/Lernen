@@ -12,7 +12,7 @@
     scanf("%d",&anzahl);
     switch(getraenk) {
       case 1: preis= preisw*anzahl;
-              printf("Bitte werfen Sie %f Euro ein: ",preis);
+              printf("Bitte werfen Sie %.2f Euro ein: ",preis);
               scanf("%f",&geld);
               while(geld<preis) {
                 preis = preis - geld;
@@ -20,7 +20,8 @@
                 printf("Werfen Sie Geld ein: ");
                 scanf("%f",&geld);}
               for(i=1;i<=anzahl;i++) {
-                printf("Hier ist Ihr %d Getränk von %d\n\n",i,anzahl); }
+                printf("Hier ist Ihr %d Getränk von %d",i,anzahl); }
+                printf("\n\n");
       break;
       case 2: printf("Bitte werfen Sie 1.00 Euro ein: ");
               scanf("%f",&geld);
