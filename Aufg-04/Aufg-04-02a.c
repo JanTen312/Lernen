@@ -18,7 +18,7 @@
 
   int main() {
    float r= einlesen();
-    umfang(r);
-    flaeche(r);
+    umfang(pi,r);
+    flaeche(pi,r);
     return 0;
   }
