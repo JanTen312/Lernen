@@ -11,7 +11,7 @@
   }
   
   void ausgabe(float erg) {
-    printf("Das Ergebniss ist %f\n",erg);
+    printf("Das Ergebniss ist %.2f\n",erg);
   }
   
   int main() {
