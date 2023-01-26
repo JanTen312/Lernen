@@ -24,19 +24,31 @@
                 printf("Hier ist Ihr %d Getränk von %d\n",i,anzahl); }
               printf("\n\n");
       break;
-      case 2: printf("Bitte werfen Sie 1.00 Euro ein: ");
+      case 2: preis= preisl*anzahl;
+              printf("\nDer Automat gibt kein Wechselgeld aus!\nBitte werfen Sie %.2f Euro ein: ",preis);
               scanf("%f",&geld);
-              if(geld == 1) {
-                printf("Hier ist Ihre Limo\n"); }
-              else {
-                printf("Falsche Geldeingabe\n"); }
+              while(geld<preis) {
+                preis = preis - geld;
+                printf("Es fehlen noch %.2f Euro\n",preis);
+                printf("Werfen Sie Geld ein: ");
+                scanf("%f",&geld);}
+              printf("\n");
+              for(i=1;i<=anzahl;i++) {
+                printf("Hier ist Ihr %d Getränk von %d\n",i,anzahl); }
+              printf("\n\n");
       break;
-      case 3: printf("Bitte werfen Sie 2.00 Euro ein: ");
+      case 3:preis= preisb*anzahl;
+              printf("\nDer Automat gibt kein Wechselgeld aus!\nBitte werfen Sie %.2f Euro ein: ",preis);
               scanf("%f",&geld);
-              if(geld == 2) {
-                printf("Hier ist Ihr Bier\n"); }
-              else {
-                printf("Falsche Geldeingabe\n"); }
+              while(geld<preis) {
+                preis = preis - geld;
+                printf("Es fehlen noch %.2f Euro\n",preis);
+                printf("Werfen Sie Geld ein: ");
+                scanf("%f",&geld);}
+              printf("\n");
+              for(i=1;i<=anzahl;i++) {
+                printf("Hier ist Ihr %d Getränk von %d\n",i,anzahl); }
+              printf("\n\n");
       break;
       default: printf("Falsche Eingabe\n");
       break; }
