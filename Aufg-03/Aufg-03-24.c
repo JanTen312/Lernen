@@ -1,21 +1,26 @@
 #include <stdio.h>
   void main() {
-    float geld,preisw=0.5,preisl=1,preisb=2;
-    int getraenk,anzahl;
+    float geld,preisw=0.5,preisl=1,preisb=2,preis;
+    int getraenk,anzahl,i;
     printf("\n\nWaehlen Sie ihr Getränk aus:\n");
-    printf("1) Wasser (%f Euro)\n",preisw);
-    printf("2) Limo (%f Euro)\n",preisl);
-    printf("3) Bier (%f Euro)\n",preisb);
+    printf("1) Wasser (%.2f Euro)\n",preisw);
+    printf("2) Limo (%.2f Euro)\n",preisl);
+    printf("3) Bier (%.2f Euro)\n",preisb);
     printf("Geben Sie zur Auswahl 1, 2 oder 3 ein:  ");
     scanf("%d",&getraenk);
     printf("Geben Sie die gewünschte Anzahl ein: ");
+    scanf("%d";&anzahl);
     switch(getraenk) {
-      case 1: printf("Bitte werfen Sie 0.50 Euro ein: ");
+      case 1: preis= preisw*anzahl;
+              printf("Bitte werfen Sie %f Euro ein: ",preis);
               scanf("%f",&geld);
-              if(geld == 0.5) {
-                printf("Hier ist Ihr Wasser\n"); }
-              else {
-                printf("Falsche Geldeingabe\n"); }
+              while(geld<=preis) {
+                preis = preis - geld;
+                printf("Es fehlen noch %.2f Euro\n",preis);
+                printf("Werfen Sie Geld ein: ");
+                scanf("%f",&geld);}
+              for(i=1;i<=anzahl;i++) {
+                printf("Hier ist Ihr %d Getränk von %d\n\n",i,anzahl); }
       break;
       case 2: printf("Bitte werfen Sie 1.00 Euro ein: ");
               scanf("%f",&geld);
