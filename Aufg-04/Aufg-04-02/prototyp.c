@@ -6,13 +6,13 @@ float vergleich() {
    printf("\n\nGeben Sie zahl B ein: ");
    scanf("%f",&b);
    if(a<b) {
-     return a;
+     printf("Die größere Zahl ist: %f \n\n",a);
    }else{
-     return b;}
+     printf("Die größere Zahl ist: %f \n\n",b);}
  }
 
 int main() {
  vergleich();
- printf("Die größere Zahl ist: %f \n\n",vergleich(a,b));
+ 
  return 0;
 }
