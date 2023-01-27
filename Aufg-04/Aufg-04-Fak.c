@@ -6,7 +6,7 @@
 
 void main() {
   int n;
-  printf("Geben Sie N ein:  ");
+  printf("\n\nGeben Sie N ein:  ");
   scanf("%d",&n);
   printf("Die Fakultät ist: %d\n\n",fakultaet(n));
 }
