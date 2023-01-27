@@ -1,11 +1,11 @@
 #include <stdio.h>
   int ggt(int Zahl1, int Zahl2){
     if(Zahl1 > Zahl2) {
-      b=b-a;
+      Zahl1=Zahl1-Zahl2;
       return ggt(Zahl1,Zahl2);
     }
     else if(Zahl1<Zahl2){
-      a=a-b;
+      Zahl2=Zahl2-Zahl1;
       return ggt(Zahl1,Zahl2);
     }
     return a;
@@ -17,5 +17,5 @@
     scanf("%d",&a);
     printf("\n\nGeben Sie b ein: ");
     scanf("%d",&b);
-    printf("Der GGT ist: %d\n\n",ggt(a,b);
+    printf("Der GGT ist: %d\n\n",ggt(a,b));
   }
