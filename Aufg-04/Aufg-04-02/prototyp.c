@@ -1,5 +1,5 @@
 #include <stdio.h>
- void main() {
+ vergleich() {
    float a,b;
    printf("\n\nGeben Sie zahl A ein: ");
    scanf("%f",&a);
@@ -10,3 +10,8 @@
    }else{
      return b;}
  }
+
+int main() {
+ vergleich();
+ return 0;
+}
