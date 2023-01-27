@@ -8,7 +8,7 @@
       Zahl2=Zahl2-Zahl1;
       return ggt(Zahl1,Zahl2);
     }
-    return a;
+    return Zahl1;
   }
         
   void main() {
