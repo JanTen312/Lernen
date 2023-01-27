@@ -1,1 +1,1 @@
-float vergleich(float,float);
+void vergleich();
