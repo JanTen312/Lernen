@@ -10,7 +10,7 @@
       return n=(n-1)+(n-2);
     }
     
-    int main() {
+    void main() {
       int f;
       printf("Geben Sie n ein: ");
       scanf("%d",&f);
