@@ -10,7 +10,3 @@ float vergleich() {
    }else{
      printf("\nDie größere Zahl ist: %f \n\n",b);}
  }
-
-void main() {
- vergleich();
-}
