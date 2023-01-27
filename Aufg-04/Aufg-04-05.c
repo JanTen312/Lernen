@@ -14,5 +14,5 @@
       int f;
       printf("Geben Sie n ein: ");
       scanf("%d",&f);
-      printf(Der die Fibunazi zahl ist: %d",fibu(n);
+      printf("Der die Fibunazi zahl ist: %d",fibu(n);
     }
