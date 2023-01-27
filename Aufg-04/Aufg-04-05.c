@@ -7,7 +7,7 @@
       return 1;
     }
     else {
-      return (fibu(n-1)+fibu(n-2);
+      return (fibu(n-1)+fibu(n-2));
     }
   }
     
