@@ -1,6 +1,6 @@
 HEADERS=prototyp.h
 
-default: test
+default: main
 
 main.o: main.c $(HEADERS)
   	  gcc -c main.c -o main.o
@@ -13,3 +13,4 @@ main: main.o funktion.o
       
 clean:
 -rm -f *.o
+-rm -f main
