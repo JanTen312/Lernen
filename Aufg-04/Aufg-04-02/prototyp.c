@@ -11,8 +11,6 @@ float vergleich() {
      printf("Die größere Zahl ist: %f \n\n",b);}
  }
 
-int main() {
+void main() {
  vergleich();
- 
- return 0;
 }
