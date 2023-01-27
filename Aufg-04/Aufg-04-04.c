@@ -15,7 +15,7 @@
     int a,b;
     printf("\n\nGeben Sie a ein: ");
     scanf("%d",&a);
-    printf("\n\nGeben Sie b ein: ");
+    printf("Geben Sie b ein: ");
     scanf("%d",&b);
     printf("Der GGT ist: %d\n\n",ggt(a,b));
   }
