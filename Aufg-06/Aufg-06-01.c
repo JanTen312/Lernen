@@ -11,6 +11,6 @@
   for(i=0;i<10;i++) {
   n=n+Note[i];
   }
-  schnitt=n/10;
+  schnitt= n*10;
   printf("\nDer Notenschnitt ist: %.2f\n\n",schnitt);
   }
