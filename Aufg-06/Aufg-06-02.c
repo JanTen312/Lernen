@@ -1,5 +1,5 @@
 #include <stdio.h>
-  void main() {
+  int main() {
     int aint[100];
     long along[100];
     float afloat[100];
@@ -20,4 +20,5 @@
     printf("\nGröße long: %d Bytes", sizeof(long));
     printf("\nGröße float: %d Bytes", sizeof(float));
     printf("\nGröße double: %d Bytes\n", sizeof(double));
+  return 0;
   }
