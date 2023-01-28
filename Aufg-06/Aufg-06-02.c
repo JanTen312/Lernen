@@ -1,7 +1,7 @@
 #include <stdio.h>
   void main() {
-    int int[];
-    long long[];
-    float float[];
-    double double[];
+    int aint[];
+    long along[];
+    float afloat[];
+    double adouble[];
   }
