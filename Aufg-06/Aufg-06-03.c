@@ -11,6 +11,6 @@
           Zahlen[x] = hilfe;
         }}}
     for(int y=0;y<20;y++) {
-      printf("Die %d Zahl ist &d\n",y+1,Zahlen[y]);
+      printf("Die %d Zahl ist %d\n",y+1,Zahlen[y]);
     }
   }
