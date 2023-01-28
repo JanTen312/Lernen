@@ -1,7 +1,7 @@
 #include <stdio.h>
   void main() {
-  int i;
-  float n,schnitt;
+  int i,n;
+  float schnitt;
   n=0;
   int Note[9];
   for(int i=0;i<10;i++) {
