@@ -5,7 +5,7 @@
     a= 20;
     for (int i = 0; i < a; ++i)
      {   
-         for (int x = 0; x < a-i-1; ++x)
+         for (int x = 0; x < 20-i-1; ++x)
          {
               if(Zahlen[x] > Zahlen[x+1])
               {
