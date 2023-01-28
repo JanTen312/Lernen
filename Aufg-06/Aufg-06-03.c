@@ -7,7 +7,7 @@
      {   
          for (int x = 0; x < a; x++)
          {
-              if(Zahlen[x] > Zahlen[x+1])
+              if(Zahlen[x] < Zahlen[x+1])
               {
                   int temp = Zahlen[x];
                   Zahlen[x] = Zahlen[x+1];
