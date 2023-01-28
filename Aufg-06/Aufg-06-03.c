@@ -1,11 +1,11 @@
 #include <stdio.h>
   void main() {
-    int Zahlen[19] = {1,412,65,3,63,8,6,4,32,46,67,54,22,45,32,487,67,5,43};
+    int Zahlen[19] = {20,1,19,2,18,3,17,4,16,5,15,4,14,3,13,2,12,1};
     int a;
     a= 20;
     for (int i = 0; i < a; ++i)
      {   
-         for (int x = 0; x < 20-i-1; ++x)
+         for (int x = 0; x < a; ++x)
          {
               if(Zahlen[x] > Zahlen[x+1])
               {
