@@ -1,7 +1,7 @@
 #include <stdio.h>
   void main() {
   int Note[9];
-  for(int i=1;i<=10;i++) {
+  for(int i=0;i<10;i++) {
     printf("Geben Sie die %d Note ein: ",i);
     scanf("%d",&Note[i]);
   }
