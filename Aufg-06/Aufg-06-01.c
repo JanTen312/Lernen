@@ -5,9 +5,9 @@
     printf("Geben Sie die %d Note ein: ",i+1);
     scanf("%d",&Note[i]);
   }
+  printf("\nGeben Sie die %d Note ein: ",Note[0]);
   printf("\nGeben Sie die %d Note ein: ",Note[1]);
   printf("\nGeben Sie die %d Note ein: ",Note[2]);
   printf("\nGeben Sie die %d Note ein: ",Note[3]);
   printf("\nGeben Sie die %d Note ein: ",Note[4]);
-  printf("\nGeben Sie die %d Note ein: ",Note[5]);
   }
