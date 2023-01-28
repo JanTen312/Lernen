@@ -12,5 +12,5 @@
   n=n+Note[i];
   }
   schnitt=n/10;
-  printf("\nDer Notenschnitt ist: %d\n\n",n);
+  printf("\nDer Notenschnitt ist: %d\n\n",schnitt);
   }
