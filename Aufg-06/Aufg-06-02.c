@@ -10,4 +10,14 @@
     printf("long Größe: %d Bytes\n",sizeof(long));
     printf("float Größe: %d Bytes\n",sizeof(float));
     printf("double Größe: %d Bytes\n",sizeof(double));
+    
+    int bigint[100];
+    long biglong[100];
+    float bigfloat[100];
+    double bigdouble[100];
+
+    printf("\nGröße int: %d Bytes", sizeof(int));
+    printf("\nGröße long: %d Bytes", sizeof(long));
+    printf("\nGröße float: %d Bytes", sizeof(float));
+    printf("\nGröße double: %d Bytes\n", sizeof(double));
   }
