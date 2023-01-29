@@ -9,4 +9,4 @@ void vergleich () {
      printf("\nDie größere Zahl ist: %f \n\n",a);
    }else{
      printf("\nDie größere Zahl ist: %f \n\n",b);}
-}
+     }
